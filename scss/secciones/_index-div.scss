@@ -1,0 +1,41 @@
+.div-index {
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    .titulo-index {
+        text-align: center;
+        font-family: 'quicksand', sans-serif;
+    }
+
+    .parrafo-index {
+        text-align: center;
+        font-family: 'dm sans' sans-serif;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 40px;
+    }
+
+    .btn {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: #6A6EB2;
+        color: white;
+        font-family: 'dm sans', sans-serif;
+        font-weight: 500;
+        border-radius: 50px;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+}
+
+@media (max-width: 830px) {
+    .div-index {
+        .parrafo-index {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+    }
+}

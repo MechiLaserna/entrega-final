@@ -1,0 +1,41 @@
+.footer {
+    background-color: #b9b9b9;
+    font-family: 'dm sans', sans-serif;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-content: center;
+
+    p {
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        & :hover {
+            color: blue;
+            background-color: beige;
+        }
+
+        .fa-instagram {
+            font-size: 30px;
+            display: inline-flex;
+            padding: 20px;
+        }
+
+        .fa-envelope {
+            font-size: 30px;
+            display: inline-flex;
+            padding: 20px;
+        }
+
+        .fa-behance {
+            font-size: 30px;
+            display: inline-flex;
+            padding: 20px;
+        }
+    }
+}
