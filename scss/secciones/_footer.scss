@@ -1,6 +1,6 @@
 .footer {
-    background-color: #b9b9b9;
-    font-family: 'dm sans', sans-serif;
+    background-color: $gris;
+    font-family: $tipografia-principal;
     color: white;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -16,7 +16,7 @@
         display: flex;
         justify-content: center;
         & :hover {
-            color: blue;
+            color: $azul;
             background-color: beige;
         }
 

@@ -1,0 +1,36 @@
+/*extend*/
+%estiloPrincipal{
+    font-family: $tipografia-secundaria;
+    text-align: center;
+    color: $gris-oscuro;
+}
+
+%estiloSecundario{
+    font-family: $tipografia-principal;
+    text-align: center;
+    color: $gris-oscuro;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+}
+
+%estiloBoton{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: $azul;
+    color: white;
+    font-family: $tipografia-principal;
+    font-weight: 500;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+/*mixin*/
+@mixin estiloTitulo ($size) {
+    font-size: $size;
+    font-family: $tipografia-secundaria;
+}

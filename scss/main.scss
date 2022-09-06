@@ -9,5 +9,8 @@
     color: #72db80;
 }
 
+@import './variables/colors';
+@import './variables/typo';
+@import './variables/extend';
 @import './secciones/index-div';
 @import './secciones/footer';

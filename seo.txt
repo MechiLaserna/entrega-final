@@ -1,0 +1,4 @@
+En el archivo index.html sumé el SEO con:
+Título en el encabezado: Sifón Verde | Home
+Keywords: sifón, verde, diseño, gráfico, ilustración
+Description: Sifón verde ofrece servicios y productos de diseño gráfico e ilustración
