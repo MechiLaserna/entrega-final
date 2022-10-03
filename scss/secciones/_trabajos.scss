@@ -1,0 +1,70 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 900px;
+    padding-bottom: 50px;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "trabajo01 trabajo02"
+      "trabajo03 trabajo04"
+      "trabajo05 trabajo06";
+  
+  .grid-container img {
+    width: 450px;
+    padding: 10px;
+  }
+  
+  .trabajo01 {
+    grid-area: trabajo01;
+  }
+  
+  .trabajo01 :hover {
+    background-color: $azul;
+  }
+  
+  .trabajo02 {
+    grid-area: trabajo02;
+  }
+  
+  .trabajo02 :hover {
+    background-color: $azul;
+  }
+  
+  .trabajo03 {
+    grid-area: trabajo03;
+  }
+  
+  .trabajo03 :hover {
+    background-color: #6A6EB2;
+  }
+  
+  .trabajo04 {
+    grid-area: trabajo04;
+  }
+  
+  .trabajo04 :hover {
+    background-color: $azul;
+  }
+  
+  .trabajo05 {
+    grid-area: trabajo05;
+  }
+  
+  .trabajo05 :hover {
+    background-color: $azul;
+  }
+  
+  .trabajo06 {
+    grid-area: trabajo06;
+  }
+  
+  .trabajo06 :hover {
+    background-color: $azul;
+  }
+}

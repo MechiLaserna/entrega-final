@@ -1,0 +1,40 @@
+.nav-tienda {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-family: $tipografia-principal;
+    font-size: 15px;
+    color: $gris-oscuro;
+  
+  .nav-tienda li {
+    padding: 20px;
+  }
+  
+  .nav-tienda :hover {
+    color: $azul;
+  }
+  
+  .h1-tienda {
+    text-align: center;
+    align-content: center;
+    padding: 60px;
+    font-family: $tipografia-secundaria;
+    color: $azul;
+  }
+  
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-family: $tipografia-secundaria;
+  }
+  
+  .btn {
+    color: white;
+    background-color: $verde;
+    border: $verde;
+  }
+}
